@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application: 
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: /mnt/work/LinuxEnv/SpringWorkspace/cloud-config-files
+          refreshRate: 0
