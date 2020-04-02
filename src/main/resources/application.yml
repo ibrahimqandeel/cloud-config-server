@@ -7,5 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: /mnt/work/LinuxEnv/STSWorkspace/cloud-config-files
+#          uri: /mnt/work/LinuxEnv/STSWorkspace/cloud-config-files
+          uri: E:\\WinEnv\\intellijWS\\CostTrackerWS\\cloud-config-files
           refreshRate: 0
